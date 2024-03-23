@@ -1,0 +1,44 @@
+# .NET
+bin/
+obj/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Rider
+**/.idea/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Package directories
+packages/
+node_modules/
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+**/.DS_Store
+
+# Windows
+Thumbs.db
+
+# Others
+global.json

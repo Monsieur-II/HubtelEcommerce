@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commerce.Api", "Commerce.Api\Commerce.Api.csproj", "{E5556F32-E843-42D4-ABE7-262F1E0CF2A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commerce.Infras", "Commerce.Infras\Commerce.Infras.csproj", "{57CF72B5-FB87-4145-8910-73B24E55FBB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commerce.Application", "Commerce.Application\Commerce.Application.csproj", "{71815AEC-4717-4E17-B271-F64D07BC84B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5556F32-E843-42D4-ABE7-262F1E0CF2A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5556F32-E843-42D4-ABE7-262F1E0CF2A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5556F32-E843-42D4-ABE7-262F1E0CF2A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5556F32-E843-42D4-ABE7-262F1E0CF2A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57CF72B5-FB87-4145-8910-73B24E55FBB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CF72B5-FB87-4145-8910-73B24E55FBB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CF72B5-FB87-4145-8910-73B24E55FBB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57CF72B5-FB87-4145-8910-73B24E55FBB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71815AEC-4717-4E17-B271-F64D07BC84B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71815AEC-4717-4E17-B271-F64D07BC84B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71815AEC-4717-4E17-B271-F64D07BC84B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71815AEC-4717-4E17-B271-F64D07BC84B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
