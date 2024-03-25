@@ -1,5 +1,6 @@
 using Commerce.Application.DTOs.Cart;
 using Commerce.Application.Services.Carts;
+using Commerce.Application.Utils;
 using Commerce.Infras.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -24,6 +25,14 @@ public class CartsController : ControllerBase
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     public async Task<IActionResult> AddItemToCart(CartItemDto cartItemDto)
     {
+        if (cartItemDto.Quantity < 0)
+            return BadRequest(new Response()
+            {
+                Message = "Negative values not allowed for quantity",
+                status = "Error",
+                Success = false,
+            });
+        
         var userName = User.Identity?.Name;
         
         var cart = await _cartService.AddItemToCart(cartItemDto, userName);

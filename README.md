@@ -1,4 +1,4 @@
-# Hubtel Ecommerce API 🛒🛍️
+# Hubtel Ecommerce API 🛒
 
 This project is a RESTful API for the Hubtel Ecommerce application to unify cart experience for users . It is built with C# using .NET 6
 
